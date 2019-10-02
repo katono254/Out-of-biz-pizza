@@ -2,7 +2,7 @@
 #### {This is a pizza application where a customer can order pizza }, {5/10/2019}
 #### By **{1 contributor that is GREG KATONO}**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+{This pizza website enables a user to browse for pizza`s and able to order them wherever he/she is. We have the best and yet the cheapest pizza's in Kenya and you can order from your phone }
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
