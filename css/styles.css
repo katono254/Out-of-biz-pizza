@@ -6,6 +6,7 @@ li {
     font-family: 'Mansalva', cursive;
     font-size: 32px;
     
+    
 }
 * {
     box-sizing: border-box;
@@ -20,5 +21,10 @@ li a.active {
     background-color: #555;
     color: white;
   }
-  
+div[class="listed"]{
+    margin-right: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
 
