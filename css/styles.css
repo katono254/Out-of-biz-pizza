@@ -48,13 +48,23 @@ h2{
 }
 
 .pizza{
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
     color:black;
 }
 .cars{
+    font-family: 'Special Elite', cursive;
     color: #4CAF50;
 }
 h2.sizing:hover,h2.sizing:hover{
     font-size: 200%;
     color: white;
+}
+p.oblique{
+    text-align: center;
+    font-style: oblique;
+    font-size: 18px;
+    
+}
+.us-about{
+    font-family: 'Mansalva', cursive;
 }
