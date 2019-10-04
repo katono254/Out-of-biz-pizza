@@ -1,8 +1,4 @@
-div[class="logo-pull-left"]{
-    float:left;
-    padding:0.01em;
-    margin-right:1px;
-}
+
 li {
     display: inline;
     margin-right: 20px;
@@ -24,7 +20,5 @@ li a.active {
     background-color: #555;
     color: white;
   }
- .image-place{
-     background-image: url(../img/big-backgroundimg.jpeg)
-     
- }
+  
+
