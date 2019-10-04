@@ -26,5 +26,15 @@ div[class="listed"]{
     position: absolute;
     top: 0px;
     right: 0px;
+
+}
+.image{
+    background-image: url(../img/Foods-Delicious-and-spicy-pizza-wonderful-food-HD.jpg);
+    padding: 150px;
+    margin: 45px;
+    background-position: center;
+    background-size: 100%,100%;
+    background-repeat: no-repeat;
+
 }
 
