@@ -18,6 +18,12 @@ li a {
     background-color:#fff;
     font-size: 38px;
     font-family: 'Permanent Marker', cursive;
+    
 }
-
+li a:hover:not(.active) {
+    background-color:#D3D3D3;
+  }
+.active {
+    background-color: #4CAF50;
+  }
   
