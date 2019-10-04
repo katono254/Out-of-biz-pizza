@@ -3,4 +3,13 @@ div[class="logo-pull-left"]{
     padding:0.01em;
     margin-right:1px;
 }
-
+li {
+    display: inline;
+    margin-right: 20px;
+    float: right;
+     
+}
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
