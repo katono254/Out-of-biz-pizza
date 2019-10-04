@@ -3,28 +3,4 @@ div[class="logo-pull-left"]{
     padding:0.01em;
     margin-right:1px;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-li{
-    float:right;
-}
-li a {
-    display: block;
-    padding: 8px;
-    background-color:#fff;
-    font-size: 38px;
-    font-family: 'Permanent Marker', cursive;
-    color:blueviolet;
-    
-}
-li a:hover:not(.active) {
-    background-color:#D3D3D3;
-  }
-.active {
-    background-color: #4CAF50;
-  }
-  
+
