@@ -69,5 +69,8 @@ p.oblique{
     font-family: 'Mansalva', cursive;
 }
 div[id="us"]{
-    background-image: 
+    background-image: url(../img/Foods-Delicious-and-spicy-pizza-wonderful-food-HD.jpg);
+    background-size: 100%,100%;
+    padding: 67px;
+    background-position: center;
 }
