@@ -9,6 +9,7 @@ $("#place-order").click(function () {
     let crust = $("#crust option:selected").val();
     let topping = $("#toppings option:selected").val();
     let number = $("#number").val();
+    console.log(size);
     let order = (t, s, c, t, n, total) => {
         return { t, s, c, t, n, total };
     };
@@ -246,14 +247,14 @@ $("#place-order").click(function () {
                                     break;
                             }
                             let newOrder = order(type, size, crust, topping, number, totalPrice);
-                            document.write(newOrder);
+                            console.log(newOrder);
                             $('.cdata-overlay').slideUp();
-                            $('#list').slideDown();
+                            $('#list-order').slideDown();
                             $('.deliver').show(1000);
                             $('.delivernot').show(1000);
 
-                            $('#list').text(" ");
-                            $("#list").append("<br>" + "Type :   " + newOrder.t + "<br>" + "Size :   "
+                            $("#list-order").text(" ");
+                            $("#list-order").append("<br>" + "Type :   " + newOrder.t + "<br>" + "Size :   "
                                 + newOrder.s + "<br>" + "Crust :     "
                                 + newOrder.c + "<br>" + "Toppings :     "
                                 + newOrder.t + "<br>" + " Number of pizzas :    "
@@ -264,9 +265,8 @@ $("#place-order").click(function () {
 
                     $(".deliver").click(function () {
                         $('.summary').slideUp();
-                        $('#list').slideUp();
+                        $('#list-order').slideUp();
                         $('.summary').text("Provide location details").slideDown();
-                        $('.myDelivery').hide(1000);
                         $('.delivernot').hide(1000);
                         $('.cdata-overlay').slideDown();
                     });
