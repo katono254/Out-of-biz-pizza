@@ -3,7 +3,8 @@ $(function () {
     $(".cd-overlay").hide();
     $("hide-this").hide()
 })
-$("#place-order").click(function () {
+$("#place-order").click(function (event) {
+    event.preventDefault();
     let type = $("#type:selected").val();
     let size = $("#size option:selected").val();
     let crust = $("#crust option:selected").val();
@@ -15,7 +16,7 @@ $("#place-order").click(function () {
     };
     let price, totalPrice
     switch (type) {
-        case type = "matumbo-pizza":
+        case type = "wizzle-pizza":
             switch (size) {
                 case size = "small":
 
@@ -56,7 +57,7 @@ $("#place-order").click(function () {
                     break;
             }
             break;
-        case type = "matumbo":
+        case type = "wizzle":
             switch (size) {
                 case size = "small":
                     price = 100;
