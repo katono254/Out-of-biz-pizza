@@ -74,4 +74,15 @@ div[id="us"]{
     padding: 100px;
     background-position: center;
 }
-
+.listed{
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    scroll-behavior: smooth;
+}
+.delivery{
+    display: none;
+}
