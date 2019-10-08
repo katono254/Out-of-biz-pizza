@@ -286,6 +286,7 @@ $(function () {
         $('.deliver').hide(1000);
         $('.delivernot').hide(1000);
         $('.cdata-overlay').slideDown();
+        alert("Your delivery fee is 50 ksh")
     });
 
 
@@ -299,3 +300,11 @@ $(function () {
         $.scrollify.move('#sum-order');
     });
 });
+function myFunction() {
+    alert("Your delivery fee is 50 ksh");
+  }
+  function myFriend() {
+    alert("Our location is in Nairobi town");
+  }
+  
+
